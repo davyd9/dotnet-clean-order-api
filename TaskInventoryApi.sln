@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EB0A5F5-B5C9-452C-87B7-EFF2CA8D2541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInventory.Api", "src\TaskInventory.Api\TaskInventory.Api.csproj", "{B35A024B-F11D-4948-9ADB-E8B6C426C369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{710821A7-05ED-4FC7-B7F2-B2AE5F703749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskInventory.Tests", "tests\TaskInventory.Tests\TaskInventory.Tests.csproj", "{1276C385-20E8-4CA4-8396-683C38187896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35A024B-F11D-4948-9ADB-E8B6C426C369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35A024B-F11D-4948-9ADB-E8B6C426C369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35A024B-F11D-4948-9ADB-E8B6C426C369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35A024B-F11D-4948-9ADB-E8B6C426C369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1276C385-20E8-4CA4-8396-683C38187896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1276C385-20E8-4CA4-8396-683C38187896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1276C385-20E8-4CA4-8396-683C38187896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1276C385-20E8-4CA4-8396-683C38187896}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B35A024B-F11D-4948-9ADB-E8B6C426C369} = {1EB0A5F5-B5C9-452C-87B7-EFF2CA8D2541}
+		{1276C385-20E8-4CA4-8396-683C38187896} = {710821A7-05ED-4FC7-B7F2-B2AE5F703749}
+	EndGlobalSection
+EndGlobal
